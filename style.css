@@ -1,0 +1,149 @@
+p,
+h1,
+ul,
+ol,
+dl {
+    position: relative;
+}
+
+:root {
+    --page-bg-color: rgb(12, 12, 21);
+    --box-bg-color: rgb(38, 34, 48);
+    --text-color: white;
+}
+
+body {
+    background: var(--page-bg-color);
+    color: var(--text-color);
+}
+
+@font-face {
+    font-family: "DatCub-Bold";
+    src: url("assets/fonts/DatCub-Bold.ttf");
+}
+
+@font-face {
+    font-family: "DatCub-Light";
+    src: url("assets/fonts/DatCub-Light.ttf");
+}
+
+@font-face {
+    font-family: "Legible";
+    src: url("assets/fonts/AtkinsonHyperlegible-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Legible-italic";
+    src: url("assets/fonts/AtkinsonHyperlegible-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Legible-bold";
+    src: url("assets/fonts/AtkinsonHyperlegible-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Legible-bold-italic";
+    src: url("assets/fonts/AtkinsonHyperlegible-BoldItalic.ttf");
+}
+
+p {
+    font-family: Legible;
+    font-size: medium;
+    padding-inline-start: 10px;
+}
+
+a.b {
+    font-family: Legible-bold;
+}
+
+a.i {
+    font-family: Legible-italic;
+}
+
+a.bi {
+    font-family: Legible-bold-italic;
+}
+
+h2 {
+    font-family: DatCub-Light;
+    font-weight: bold;
+    font-size: medium;
+    padding-inline-start: 10px;
+}
+
+h1 {
+    font-family: DatCub-Bold;
+    font-weight: bold;
+    font-size: medium;
+    padding-inline-start: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gif {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 45%;
+}
+
+.topleftlogo {
+    width: 80%;
+    padding-top: 7%;
+    padding-bottom: 4%;
+    padding-left: 8%;
+}
+
+.box {
+    border: 5px solid var(--page-bg-color);
+    border-radius: 10px;
+    background-color: var(--box-bg-color);
+}
+
+.gradient-select {
+    position: relative;
+}
+
+.gradient-select:before {
+    background: linear-gradient(130deg,
+            rgba(78, 74, 154, 0) 33%,
+            rgba(32, 102, 177, 0.3) 66%,
+            rgba(41, 40, 117, 0.5) 100%);
+    background-size: 300% 300%;
+    transition: background-position 350ms ease, transform 350ms ease;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gradient-select:hover:before {
+    background-position: 100% 100%;
+}
+
+.containerleft {
+    float: left;
+    max-width: 200px;
+    width: 25%;
+}
+
+.containerright {
+    float: left;
+    max-width: 600px;
+    width: 75%;
+}
+
+.gallery {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 46%;
+}
+
+a:link,
+a:visited {
+    color: var(--text-color);
+}
