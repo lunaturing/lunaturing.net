@@ -91,12 +91,13 @@ img {
 }
 
 .gif {
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 23%;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    width: 15.3%;
     border-radius: 1px;
-    filter: contrast(60%);
-    filter: saturate(50%);
+    filter: opacity(0.8);
+    /* filter: contrast(80%); */
+    /* filter: saturate(70%); */
 }
 
 .topleftlogo {
