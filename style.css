@@ -84,6 +84,12 @@ img {
     border-radius: 3px;
 }
 
+.gallery {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 46%;
+}
+
 .gif {
     margin-left: 2%;
     margin-top: 2%;
@@ -135,12 +141,6 @@ img {
     float: left;
     max-width: 600px;
     width: 75%;
-}
-
-.gallery {
-    margin-left: 2%;
-    margin-top: 2%;
-    width: 46%;
 }
 
 a:link,
