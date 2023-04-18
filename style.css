@@ -12,8 +12,8 @@ dl {
     --text-color: white;
 }
 
-body {
-    background: var(--page-bg-color);
+html {
+    background-color: var(--page-bg-color);
     color: var(--text-color);
 }
 
@@ -91,9 +91,12 @@ img {
 }
 
 .gif {
-    margin-left: 2%;
-    margin-top: 2%;
-    width: 45%;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 23%;
+    border-radius: 1px;
+    filter: contrast(60%);
+    filter: saturate(50%);
 }
 
 .topleftlogo {
@@ -105,7 +108,7 @@ img {
 
 .box {
     border: 5px solid var(--page-bg-color);
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: var(--box-bg-color);
 }
 
