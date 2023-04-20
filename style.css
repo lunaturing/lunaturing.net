@@ -91,13 +91,19 @@ img {
 }
 
 .gif {
-    margin-left: 0.5%;
-    margin-top: 0.5%;
-    width: 15.3%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 1%;
     border-radius: 1px;
     filter: opacity(0.8);
-    /* filter: contrast(80%); */
-    /* filter: saturate(70%); */
+}
+
+.gif-large {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1%;
+    border-radius: 1px;
+    filter: opacity(0.8);
 }
 
 .topleftlogo {
