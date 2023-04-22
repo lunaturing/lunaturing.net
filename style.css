@@ -1,11 +1,3 @@
-p,
-h1,
-ul,
-ol,
-dl {
-    position: relative;
-}
-
 :root {
     --page-bg-color: rgb(12, 12, 21);
     --box-bg-color: rgb(38, 34, 48);
