@@ -92,7 +92,7 @@ img {
 
 .gif-large {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     margin: 1%;
     border-radius: 1px;
     filter: opacity(0.8);
